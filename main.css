@@ -33,6 +33,11 @@ ul li a:hover{
 color: blue;
 }
 
+ul li a:active{
+margin-right: 2px;
+color: black;
+}
+
 
 body {
 
