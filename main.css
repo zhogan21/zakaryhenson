@@ -77,3 +77,18 @@ color: black;
   overflow: hidden;
   font-size: 20px;
 }
+
+.paragraphlad {
+  text-align: center;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  line-height: 30px;
+}
+
+.claytorious {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 25%;
+}
