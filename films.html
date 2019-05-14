@@ -15,21 +15,20 @@
       <li><a class = "me" id="index" href="index.html"><img src="./img/zok.JPG" height=100px width=100px >
       <li><a href="films.html">Films</a></li>
       <li><a href="scouts.html">Scouts</a></li>
-      <li><a href="contactme.html">Contact me</a></li>
     </ul>
   </nav>
 
 <h1 class="shortfilms">Short Films and Videos</h1>
-<div class="Scooters">
-    <video class="scooters" id="myVideo" width="650" height="400" style="margin-bottom: -30px;" autoplay>
-      <source src="./img/set.mov" type="video/mp4">
-      <source src="./img/set.mov" type="video/ogg">
+<div class="bird">
+    <video class="bird" id="myVideo1" width="650" height="400" autoplay>
+      <source src="./img/bird.mov" type="video/mp4">
+      <source src="./img/bird.mov" type="video/ogg">
     </video>
   </div>
   <button class="buttons" onclick="playVid()" type="button">Play Video</button>
   <button class="buttons"onclick="pauseVid()" type="button">Pause Video</button><br>
 <script>
-  var vid = document.getElementById("myVideo");
+  var vid = document.getElementById("myVideo1");
 
   function playVid() {
     vid.play();
@@ -39,6 +38,28 @@
     vid.pause();
   }
   </script>
+
+  <div class="soccer">
+      <video class="soccer" id="myVideo2" width="650" height="400"  autoplay>
+        <source src="./img/finalVideo.mov" type="video/mp4">
+        <source src="./img/finalVideo.mov" type="video/ogg">
+      </video>
+    </div>
+    <button class="buttons" onclick="playVid()" type="button">Play Video</button>
+    <button class="buttons"onclick="pauseVid()" type="button">Pause Video</button><br>
+  <script>
+    var vid = document.getElementById("myVideo2");
+
+    function playVid() {
+      vid.play();
+    }
+
+    function pauseVid() {
+      vid.pause();
+    }
+    </script>
+
+
 </body>
 
 
