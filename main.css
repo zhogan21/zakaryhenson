@@ -108,7 +108,7 @@ color: black;
 }
 
 .slideshow-container {
-  max-width: 60% !important;
+  max-width: 40% !important;
   min-width: 30% !important;
   position: relative;
   margin: auto;
@@ -141,4 +141,21 @@ color: black;
 
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bird, .soccer{
+  max-width: 100% !important;
+  min-width: 100% !important;
+  position: relative;
+  margin: auto;
+}
+.button {
+position: relative;
+left: 45%;
+}
+
+.yeye {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
